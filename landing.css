@@ -2,54 +2,9 @@
   box-sizing: border-box;
 }
 
-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: #89C338;
-  border-bottom: 1px solid #eee;
-}
-
-
-.nav {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 20px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.burger {
-  display: none;
-  border: 0;
-  background: transparent;
-  font-size: 28px;
-  line-height: 1;
-  cursor: pointer;
-}
-
-
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 16px;
-}
-
-.logo img {
-  height: 40px;
-}
-
-.menu a {
-  margin-left: 30px;
-  text-decoration: none;
-  color: #000;
-  font-size: 14px;
-}
-
 .welcome {
-  height: 420px; /* wysokość hero */
+  height: 420px;
+  /* wysokość hero */
   background-image: url("img/wodospad.jpg");
   background-size: cover;
   background-position: center;
@@ -79,8 +34,8 @@ header {
 }
 
 .content {
-    text-align: justify;
-  margin-left: 120px;  
+  text-align: justify;
+  margin-left: 120px;
   margin-right: 120px;
 }
 
@@ -120,15 +75,15 @@ body {
   display: flex;
   gap: 30px;
   justify-content: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .card {
   width: 320px;
-  height: 360px;              
+  height: 360px;
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,.10);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .10);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -140,19 +95,19 @@ body {
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
 
 .photo {
-  height: 50%;               
+  height: 50%;
   background: #e6e6e6;
   background-size: cover;
   background-position: center;
 }
 
 .text {
-  height: 50%;                
+  height: 50%;
   padding: 18px 20px;
   display: flex;
   flex-direction: column;
@@ -188,58 +143,11 @@ body {
   color: #000;
 }
 
-.footer {
-  background: #5B4D29;
-  padding: 60px 20px 40px;
-  text-align: center;
-}
-
-.footer div {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.footer h3 {
-  margin: 0 0 10px;
-  font-size: 18px;
-  color: #FCFDFF;
-}
-
-.footer .coords {
-  margin: 0 0 10px;
-  font-size: 12px;
-  color: #FCFDFF;
-}
-
-.footer .copy {
-  margin: 0;
-  font-size: 11px;
-  color: #FCFDFF;
-}
 
 
 @media (max-width: 600px) {
-    .nav {
-    padding: 14px 16px;
-  }
 
-  .logo strong {
-    font-size: 14px;
-  }
 
-  .logo img {
-    height: 28px;
-  }
-
-   .menu {
-    display: none;
-  }
-
-  .burger {
-    display: block;
-  }
-
-  
   .welcome {
     height: 220px;
     padding: 0 16px;
@@ -266,11 +174,11 @@ body {
   }
 
   .about h2 {
-    font-size: 28px; 
+    font-size: 28px;
     margin-bottom: 14px;
   }
 
-  
+
   .news {
     margin: 40px auto 60px;
     padding: 0 16px;
@@ -287,8 +195,4 @@ body {
     max-width: 360px;
   }
 
-  
-  .footer hr {
-    width: 70%;
-  }
 }

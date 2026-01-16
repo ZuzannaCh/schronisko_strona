@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000;
+    background: #807051;
+}
+
+.oferta {
+    background: #fff;
+    padding: 20px 0;
+}
+
+
+.oferta-inner {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 40px;
+
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.oferta-reverse .oferta-inner {
+    flex-direction: row-reverse;
+}
+
+.oferta-text {
+    flex: 1;
+}
+
+.oferta-photo {
+    flex: 1;
+}
+
+.photo {
+    border-radius: 2%;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .oferta-inner {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .oferta-reverse .oferta-inner {
+        flex-direction: column;
+    }
+}

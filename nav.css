@@ -1,0 +1,105 @@
+.nav {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #89C338;
+    border-bottom: 1px solid #eee;
+}
+
+.burger {
+    display: none;
+    border: 0;
+    background: transparent;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.menu a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+/* foooter*/
+
+.footer {
+    background: #5B4D29;
+    padding: 60px 20px 40px;
+    text-align: center;
+}
+
+.footer div {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #FCFDFF;
+}
+
+.footer .coords {
+    margin: 0 0 10px;
+    font-size: 12px;
+    color: #FCFDFF;
+}
+
+.footer .copy {
+    margin: 0;
+    font-size: 11px;
+    color: #FCFDFF;
+}
+
+@media (max-width: 600px) {
+
+    /* Header: mniej paddingu, sticky zostaje */
+    .nav {
+        padding: 14px 16px;
+    }
+
+    .logo strong {
+        font-size: 14px;
+    }
+
+    .logo img {
+        height: 28px;
+    }
+
+    /* Ukryj desktopowe menu, pokaż hamburger */
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    /* Footer: linia nie może mieć 600px na mobile */
+    .footer hr {
+        width: 70%;
+    }
+}
