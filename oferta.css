@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -12,13 +16,14 @@ body {
 
 
 .oferta-inner {
-    max-width: 1500px;
+    max-width: 1600px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 20px 40px;
 
     display: flex;
     align-items: center;
     gap: 80px;
+    border-bottom: 2px solid #807051;
 }
 
 .oferta-reverse .oferta-inner {
@@ -31,6 +36,10 @@ body {
 
 .oferta-photo {
     flex: 1;
+}
+
+.oferta-text li::marker {
+    color: #89C338;
 }
 
 .photo {

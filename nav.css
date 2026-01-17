@@ -1,18 +1,20 @@
 .nav {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 20px 40px;
+    /* padding: 20px 40px; */
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+
 header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: #89C338;
-    border-bottom: 1px solid #eee;
+    background: #54941E;
+    /* border-bottom: 1px solid #eee; */
 }
 
 .burger {
@@ -36,12 +38,33 @@ header {
     height: 60px;
 }
 
-.menu a {
-    margin-left: 30px;
-    text-decoration: none;
-    color: #000;
-    font-size: 14px;
+
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    height: 100%;
 }
+
+
+
+.menu a {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0 16px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    background-color: #89C338;
+    transform: translateY(-2px);
+}
+
+
 
 /* foooter*/
 

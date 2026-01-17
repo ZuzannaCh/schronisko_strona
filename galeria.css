@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .zdjecia {
     display: flex;
     align-items: center;
@@ -11,7 +15,7 @@
 }
 
 section {
-    max-width: 1500px;
+    max-width: 1600px;
     margin: 40px auto;
     padding: 0 40px;
 }
