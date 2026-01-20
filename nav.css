@@ -14,7 +14,6 @@ header {
     top: 0;
     z-index: 1000;
     background: #54941E;
-    /* border-bottom: 1px solid #eee; */
 }
 
 .burger {
@@ -24,6 +23,7 @@ header {
     font-size: 28px;
     line-height: 1;
     cursor: pointer;
+    color: #5B4D29;
 }
 
 
@@ -62,8 +62,41 @@ header {
 .menu li a:hover {
     background-color: #89C338;
     transform: translateY(-2px);
+    border-radius: 4%;
 }
 
+.menu-mobile {
+    display: none;
+    background: #807051;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+}
+
+.menu-mobile ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-mobile li {
+    border-top: 1px solid #ccc;
+}
+
+.menu-mobile a {
+    display: block;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menu-mobile a:hover {
+    background: #5B4D29;
+}
 
 
 /* foooter*/
@@ -103,6 +136,10 @@ header {
         padding: 14px 16px;
     }
 
+    .menu {
+        display: none;
+    }
+
     .logo strong {
         font-size: 14px;
     }
@@ -111,8 +148,8 @@ header {
         height: 28px;
     }
 
-    .menu {
-        display: none;
+    .menu-mobile.active {
+        display: block;
     }
 
     .burger {

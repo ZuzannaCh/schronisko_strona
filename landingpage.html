@@ -13,157 +13,163 @@
 
 <body>
     <header>
-        <!DOCTYPE html>
 
-        <head>
-            <meta charset="UTF-8">
-            <title>Strona główna</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <div class="nav">
+            <div class="logo">
+                <img id="logo" src="img/logo.png" alt="Logo Schroniska" />
+                <strong>Schronisko Kamieńczyk</strong>
+            </div>
 
-            <link rel="stylesheet" href="landing.css">
-        </head>
+            <nav class="menu">
+                <ul>
+                    <li><a href="landingpage.html">Strona Główna</a></li>
+                    <li><a href="oferta.html">Oferta</a></li>
+                    <li><a href="dlaturysty.html">Dla Turysty</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+            </nav>
+            <button class="burger" aria-label="Menu">☰</button>
+        </div>
+        <nav class="menu-mobile">
+            <ul>
+                <li><a href="landingpage.html">O nas</a></li>
+                <li><a href="oferta.html">Oferta</a></li>
+                <li><a href="dlaturysty.html">Dla turysty</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <body>
-            <header>
-                <div class="nav">
-                    <div class="logo">
-                        <img id="logo" src="img/logo.png" alt="Logo Schroniska" />
-                        <strong>Schronisko Kamieńczyk</strong>
+
+    <section class="welcome">
+        <h1>Schronisko Kamieńczyk</h1>
+        <p>Tam gdzie cisza i spokój spotykają się z naturą</p>
+    </section>
+
+    <section class="about">
+        <div class="content">
+            <h2>Krótko o schronisku</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </section>
+
+    <main>
+        <section class="news">
+            <h2>Aktualności</h2>
+
+            <div class="cards">
+                <article class="card">
+                    <div class="photo" style="background-image:url('img/zimowykamien.jpg');"></div>
+                    <div class="text">
+                        <h3>Zimowa promocja - 20% taniej!</h3>
+                        <p class="short-text">W lutym oferujemy specjalne ceny na noclegi. Idealna okazja na
+                            zimowy wypoczynek...</p>
+                        <p class="full-text">W lutym oferujemy specjalne ceny na noclegi. Idealna okazja na
+                            zimowy wypoczynek w górach. Zarezerwuj pobyt minimum na 3 noce, a otrzymasz 20%
+                            rabatu. W cenie: śniadanie, dostęp do sauny i wypożyczalnia sprzętu narciarskiego.
+                            Promocja trwa do końca lutego! Nie przegap tej okazji - miejsca ograniczone.</p>
+                        <a class="card-link" href="#">Rozwiń →</a>
                     </div>
-
-                    <nav class="menu">
-                        <ul>
-                            <li><a href="landingpage.html">Strona Główna</a></li>
-                            <li><a href="oferta.html">Oferta</a></li>
-                            <li><a href="dlaturysty.html">Dla Turysty</a></li>
-                            <li><a href="galeria.html">Galeria</a></li>
-                            <li><a href="kontakt.html">Kontakt</a></li>
-                    </nav>
-                </div>
-            </header>
-
-
-            <section class="welcome">
-                <h1>Schronisko Kamieńczyk</h1>
-                <p>Tam gdzie cisza i spokój spotykają się z naturą</p>
-            </section>
-
-            <section class="about">
-                <div class="content">
-                    <h2>Krótko o schronisku</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                        sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-            </section>
-
-            <main>
-                <section class="news">
-                    <h2>Aktualności</h2>
-
-                    <div class="cards">
-                        <article class="card">
-                            <div class="photo" style="background-image:url('img/zimowykamien.jpg');"></div>
-                            <div class="text">
-                                <h3>Zimowa promocja - 20% taniej!</h3>
-                                <p class="short-text">W lutym oferujemy specjalne ceny na noclegi. Idealna okazja na
-                                    zimowy wypoczynek...</p>
-                                <p class="full-text">W lutym oferujemy specjalne ceny na noclegi. Idealna okazja na
-                                    zimowy wypoczynek w górach. Zarezerwuj pobyt minimum na 3 noce, a otrzymasz 20%
-                                    rabatu. W cenie: śniadanie, dostęp do sauny i wypożyczalnia sprzętu narciarskiego.
-                                    Promocja trwa do końca lutego! Nie przegap tej okazji - miejsca ograniczone.</p>
-                                <a class="card-link" href="#">Rozwiń →</a>
-                            </div>
-                        </article>
-                        <article class="card">
-                            <div class="photo" style="background-image:url('img/gwiazdy.jpg');"></div>
-                            <div class="text">
-                                <h3>Weekend z gwiazdami</h3>
-                                <p class="short-text">15 lutego zapraszamy na nocną obserwację gwiazd z teleskopem.
-                                    Liczba miejsc ograniczona...</p>
-                                <p class="full-text">15 lutego zapraszamy na nocną obserwację gwiazd z profesjonalnym
-                                    teleskopem. W programie: obserwacja planet, gwiazd podwójnych, mgławic i galaktyk.
-                                    Prowadzenie: licencjonowany przewodnik astronomiczny. Początek o godzinie 20:00. W
-                                    cenie: ciepła herbata i poczęstunek. Liczba miejsc ograniczona do 15 osób - rezerwuj
-                                    już dziś! Warunkiem uczestnictwa jest bezchmurna pogoda.</p>
-                                <a class="card-link" href="#">Rozwiń →</a>
-                            </div>
-                        </article>
-                        <article class="card">
-                            <div class="photo" style="background-image:url('img/zimowykamienczyk.jpg');"></div>
-                            <div class="text">
-                                <h3>Zimowy Wodospad Kamieńczyk</h3>
-                                <p class="short-text">Odkryj Wodospad Kamieńczyk w zimowej odsłonie. Lodowe sople i
-                                    zamarznięta kaskada...</p>
-                                <p class="full-text">Odkryj Wodospad Kamieńczyk w zimowej odsłonie! Najwyższy wodospad
-                                    polskich Karkonoszy (27 metrów) zimą zamienia się w bajkową krainę lodu. Gigantyczne
-                                    sople, zamarznięte kaskady i lodowa grota tworzą niezapomniany widok. Trasa prowadzi
-                                    przez ośnieżony las bukowy - jak z zimowej baśni. Odległość ze schroniska: 2 km,
-                                    czas spaceru: 45 minut. UWAGA: zimą przy wodospadzie może być bardzo ślisko -
-                                    koniecznie zabierz raki lub kijki trekkingowe. Najpiękniej po mocnych mrozach w
-                                    styczniu i lutym!</p>
-                                <a class="card-link" href="#">Rozwiń →</a>
-                            </div>
-                        </article>
-                        <article class="card">
-                            <div class="photo" style="background-image:url('img/dania.webp');"></div>
-                            <div class="text">
-                                <h3>Nowe dania w karcie</h3>
-                                <p class="short-text">Rozszerzyliśmy menu o tradycyjne potrawy regionalne. Spróbuj
-                                    naszych domowych specjałów...</p>
-                                <p class="full-text">Rozszerzyliśmy menu o tradycyjne potrawy regionalne. Spróbuj
-                                    naszych domowych pierogów, żurku i placków ziemniaczanych przygotowanych według
-                                    starych, rodzinnych receptur. Wszystkie dania gotujemy ze świeżych produktów od
-                                    lokalnych gospodarzy. W ofercie również wegańskie i wegetariańskie opcje.
-                                    Szczególnie polecamy nasze domowe ciasta - wypiekane codziennie rano!</p>
-                                <a class="card-link" href="#">Rozwiń →</a>
-                            </div>
-                        </article>
+                </article>
+                <article class="card">
+                    <div class="photo" style="background-image:url('img/gwiazdy.jpg');"></div>
+                    <div class="text">
+                        <h3>Weekend z gwiazdami</h3>
+                        <p class="short-text">15 lutego zapraszamy na nocną obserwację gwiazd z teleskopem.
+                            Liczba miejsc ograniczona...</p>
+                        <p class="full-text">15 lutego zapraszamy na nocną obserwację gwiazd z profesjonalnym
+                            teleskopem. W programie: obserwacja planet, gwiazd podwójnych, mgławic i galaktyk.
+                            Prowadzenie: licencjonowany przewodnik astronomiczny. Początek o godzinie 20:00. W
+                            cenie: ciepła herbata i poczęstunek. Liczba miejsc ograniczona do 15 osób - rezerwuj
+                            już dziś! Warunkiem uczestnictwa jest bezchmurna pogoda.</p>
+                        <a class="card-link" href="#">Rozwiń →</a>
                     </div>
-                </section>
-            </main>
+                </article>
+                <article class="card">
+                    <div class="photo" style="background-image:url('img/zimowykamienczyk.jpg');"></div>
+                    <div class="text">
+                        <h3>Zimowy Wodospad Kamieńczyk</h3>
+                        <p class="short-text">Odkryj Wodospad Kamieńczyk w zimowej odsłonie. Lodowe sople i
+                            zamarznięta kaskada...</p>
+                        <p class="full-text">Odkryj Wodospad Kamieńczyk w zimowej odsłonie! Najwyższy wodospad
+                            polskich Karkonoszy (27 metrów) zimą zamienia się w bajkową krainę lodu. Gigantyczne
+                            sople, zamarznięte kaskady i lodowa grota tworzą niezapomniany widok. Trasa prowadzi
+                            przez ośnieżony las bukowy - jak z zimowej baśni. Odległość ze schroniska: 2 km,
+                            czas spaceru: 45 minut. UWAGA: zimą przy wodospadzie może być bardzo ślisko -
+                            koniecznie zabierz raki lub kijki trekkingowe. Najpiękniej po mocnych mrozach w
+                            styczniu i lutym!</p>
+                        <a class="card-link" href="#">Rozwiń →</a>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="photo" style="background-image:url('img/dania.webp');"></div>
+                    <div class="text">
+                        <h3>Nowe dania w karcie</h3>
+                        <p class="short-text">Rozszerzyliśmy menu o tradycyjne potrawy regionalne. Spróbuj
+                            naszych domowych specjałów...</p>
+                        <p class="full-text">Rozszerzyliśmy menu o tradycyjne potrawy regionalne. Spróbuj
+                            naszych domowych pierogów, żurku i placków ziemniaczanych przygotowanych według
+                            starych, rodzinnych receptur. Wszystkie dania gotujemy ze świeżych produktów od
+                            lokalnych gospodarzy. W ofercie również wegańskie i wegetariańskie opcje.
+                            Szczególnie polecamy nasze domowe ciasta - wypiekane codziennie rano!</p>
+                        <a class="card-link" href="#">Rozwiń →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
 
 
-            <footer class="footer">
-                <div>
-                    <h3>Czekamy na Was!</h3>
-                    <p class="coords">50.81439059112687, 15.496660354931333</p>
-                    <p class="copy">©Copyright 2025</p>
-                </div>
-            </footer>
+    <footer class="footer">
+        <div>
+            <h3>Czekamy na Was!</h3>
+            <p class="coords">50.81439059112687, 15.496660354931333</p>
+            <p class="copy">©Copyright 2025</p>
+        </div>
+    </footer>
 
-            <script>
-                document.addEventListener('DOMContentLoaded', function () {
-                    const cardLinks = document.querySelectorAll('.card-link');
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const cardLinks = document.querySelectorAll('.card-link');
 
-                    cardLinks.forEach(link => {
-                        link.addEventListener('click', function (e) {
-                            e.preventDefault();
+            cardLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
 
-                            const card = this.closest('.card');
-                            card.classList.toggle('expanded');
+                    const card = this.closest('.card');
+                    card.classList.toggle('expanded');
 
-                            if (card.classList.contains('expanded')) {
-                                this.textContent = 'Zwiń ↑';
-                            } else {
-                                this.textContent = 'Rozwiń →';
-                            }
-                        });
-                    });
+                    if (card.classList.contains('expanded')) {
+                        this.textContent = 'Zwiń ↑';
+                    } else {
+                        this.textContent = 'Rozwiń →';
+                    }
                 });
-            </script>
+            });
+        });
+    </script>
+    <script>
+        const burger = document.querySelector('.burger');
+        const mobileMenu = document.querySelector('.menu-mobile');
+
+        burger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+    </script>
 
 
-
-        </body>
+</body>
