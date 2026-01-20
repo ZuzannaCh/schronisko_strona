@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,9 +6,9 @@
 
 body {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #000;
-  background: #f5f5f5;
+  background: #fff;
 }
 
 .contact-page {
@@ -62,7 +62,7 @@ body {
 }
 
 .contact-form-section {
-  background: #fff;
+  background: #89C338;
   padding: 50px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -72,7 +72,7 @@ body {
   font-size: 28px;
   margin: 0 0 30px 0;
   text-align: center;
-  color: #333;
+  color: #FCFDFF;
 }
 
 .contact-form {
@@ -105,7 +105,9 @@ body {
 }
 
 .contact-form textarea {
-  resize: vertical;
+  
+  resize: none;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
