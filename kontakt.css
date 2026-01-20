@@ -11,13 +11,13 @@ body {
   background: #fff;
 }
 
-.contact-page {
+.kontakt-page {
   max-width: 1200px;
   margin: 0 auto;
   padding: 60px 20px;
 }
 
-.contact-info {
+.kontakt-info {
   margin-bottom: 60px;
 }
 
@@ -33,6 +33,7 @@ body {
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .icon {
@@ -61,21 +62,21 @@ body {
   min-height: 400px;
 }
 
-.contact-form-section {
+.kontakt-form-section {
   background: #89C338;
   padding: 50px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.contact-form-section h2 {
+.kontakt-form-section h2 {
   font-size: 28px;
   margin: 0 0 30px 0;
   text-align: center;
   color: #FCFDFF;
 }
 
-.contact-form {
+.kontakt-form {
   max-width: 700px;
   margin: 0 auto;
 }
@@ -87,8 +88,8 @@ body {
   margin-bottom: 20px;
 }
 
-.contact-form input,
-.contact-form textarea {
+.kontakt-form input,
+.kontakt-form textarea {
   width: 100%;
   padding: 15px;
   border: 1px solid #ddd;
@@ -98,13 +99,13 @@ body {
   transition: border-color 0.3s;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
+.kontakt-form input:focus,
+.kontakt-form textarea:focus {
   outline: none;
   border-color: #807051;
 }
 
-.contact-form textarea {
+.kontakt-form textarea {
   
   resize: none;
   margin-top: 20px;
@@ -138,7 +139,7 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .contact-form-section {
+  .kontakt-form-section {
     padding: 30px 20px;
   }
 
