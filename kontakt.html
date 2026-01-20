@@ -1,59 +1,85 @@
 <!DOCTYPE html>
-
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Kontakt</title>
+    <title>Kontakt - Schronisko Kamieńczyk</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" type="image/x-icon" href="img/logo.png">
     <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="kontakt.css">
 </head>
 
 <body>
     <header>
-        <!DOCTYPE html>
+        <div class="nav">
+            <div class="logo">
+                <img id="logo" src="img/logo.png" alt="Logo Schroniska" />
+                <strong>Schronisko Kamieńczyk</strong>
+            </div>
 
-        <head>
-            <meta charset="UTF-8">
-            <title>Strona główna</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <nav class="menu">
+                <ul>
+                    <li><a href="landingpage.html">Strona Główna</a></li>
+                    <li><a href="oferta.html">Oferta</a></li>
+                    <li><a href="#">Dla Turysty</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-            <link rel="stylesheet" href="landing.css">
-        </head>
-
-        <body>
-            <header>
-                <div class="nav">
-                    <div class="logo">
-                        <img id="logo" src="img/logo.png" alt="Logo Schroniska" />
-                        <strong>Schronisko Kamieńczyk</strong>
-                    </div>
-
-                    <nav class="menu">
-                        <ul>
-                            <li><a href="landingpage.html">Strona Główna</a></li>
-                            <li><a href="oferta.html">Oferta</a></li>
-                            <li><a href="#">Dla Turysty</a></li>
-                            <li><a href="galeria.html">Galeria</a></li>
-                            <li><a href="kontakt.html">Kontakt</a></li>
-                    </nav>
+    <main class="contact-page">
+        
+        <section class="contact-info">
+            <div class="info-container">
+                <div class="info-box">
+                    <div class="icon">📧</div>
+                    <h2>Informacje kontaktowe</h2>
+                    <p><strong>Adres:</strong></p>
+                    <p>Schronisko Kamieńczyk</p>
+                    <p>58-530 Szklarska Poręba</p>
+                    <p style="margin-top: 15px;"><strong>Telefon:</strong></p>
+                    <p>+48 123 456 789</p>
+                    <p style="margin-top: 15px;"><strong>Email:</strong></p>
+                    <p>kontakt@kamienczyk.pl</p>
                 </div>
-            </header>
 
-
-            
-          
-
-            
-            <footer class="footer">
-                <div>
-                    <h3>Czekamy na Was!</h3>
-                    <p class="coords">50.81439059112687, 15.496660354931333</p>
-                    <p class="copy">©Copyright 2025</p>
+                <div class="map-box">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11989.92782690305!2d15.500720469663712!3d50.82057119305635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470edb26e28a5663%3A0xd7ba675a290e4f25!2sSchronisko%20Kamie%C5%84czyk!5e0!3m2!1spl!2spl!4v1768947600482!5m2!1spl!2spl" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0; border-radius: 12px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-            </footer>
+            </div>
+        </section>
 
+        
+        <section class="contact-form-section">
+            <h2>Formularz kontaktowy</h2>
+            <form class="contact-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Imię i nazwisko" required>
+                    <input type="email" placeholder="E-mail" required>
+                </div>
+                <input type="text" placeholder="Temat" required>
+                <textarea placeholder="Wiadomość" rows="6" required></textarea>
+                <button type="submit" class="submit-btn">Wyślij</button>
+            </form>
+        </section>
+    </main>
 
+    <footer class="footer">
+        <div>
+            <h3>Czekamy na Was!</h3>
+            <p class="coords">50.81439059112687, 15.496660354931333</p>
+            <p class="copy">©Copyright 2025</p>
+        </div>
+    </footer>
 
-        </body>
+</body>
+</html>
