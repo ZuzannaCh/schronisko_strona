@@ -11,13 +11,13 @@ body {
     background: #807051;
 }
 
-.oferta {
+.info {
     background: #fff;
     padding-bottom: 40px 0;
 }
 
 
-.oferta-inner {
+.info-inner {
     max-width: 1600px;
     margin: 0 auto;
     padding: 20px 40px;
@@ -29,19 +29,19 @@ body {
     border-bottom: 2px solid #807051;
 }
 
-.oferta-reverse .oferta-inner {
+.info-reverse .info-inner {
     flex-direction: row-reverse;
 }
 
-.oferta-text {
+.info-text {
     flex: 1;
 }
 
-.oferta-photo {
+.info-photo {
     flex: 1;
 }
 
-.oferta-text li::marker {
+.info-text li::marker {
     color: #89C338;
 }
 
@@ -52,17 +52,14 @@ body {
 
 
 @media (max-width: 600px) {
-    .oferta-inner {
+    .info-inner {
         flex-direction: column;
         gap: 40px;
         text-align: center;
     }
 
-    .oferta-reverse .oferta-inner {
+    .info-reverse .info-inner {
         flex-direction: column;
     }
 
-    .menu-pdf iframe {
-        height: 380px;
-    }
 }
