@@ -12,23 +12,31 @@
 </head>
 
 <body>
-    <header>
-        <div class="nav">
-            <div class="logo">
-                <img id="logo" src="img/logo.png" alt="Logo Schroniska" />
-                <strong>Schronisko Kamieńczyk</strong>
-            </div>
-
-            <nav class="menu">
-                <ul>
-                    <li><a href="landingpage.html">Strona Główna</a></li>
-                    <li><a href="oferta.html">Oferta</a></li>
-                    <li><a href="dlaturysty.html">Dla Turysty</a></li>
-                    <li><a href="galeria.html">Galeria</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
-            </nav>
-            <button class="burger" aria-label="Menu">☰</button>
+    <div class="nav">
+        <div class="logo">
+            <img id="logo" src="img/logo.png" alt="Logo Schroniska" />
+            <strong>Schronisko Kamieńczyk</strong>
         </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="landingpage.html">Strona Główna</a></li>
+                <li><a href="oferta.html">Oferta</a></li>
+                <li><a href="dlaturysty.html">Dla Turysty</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+        </nav>
+        <button class="burger" aria-label="Menu">☰</button>
+    </div>
+    <nav class="menu-mobile">
+        <ul>
+            <li><a href="landingpage.html">O nas</a></li>
+            <li><a href="oferta.html">Oferta</a></li>
+            <li><a href="dlaturysty.html">Dla turysty</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
     </header>
 
 
@@ -56,7 +64,7 @@
                 </p>
             </div>
             <!-- kod z: https://blog.mapa-turystyczna.pl/umiesc-mapke-trasy-na-swojej-stronie/ -->
-            <div style="max-width:600px;overflow:hidden;margin:0 auto;min-width:300px;"><iframe
+            <div style="max-width:600px;overflow:hidden;margin:0 auto;min-width:200px;"><iframe
                     src="https://mapa-turystyczna.pl/map/widget/route/h1l0p0/4x77.html" height="400"
                     style="width:100%;border:0;border-radius: 2%;" loading="lazy"></iframe>
                 <a href="https://mapa-turystyczna.pl/route/4x77?utm_source=external_web&amp;utm_medium=widget&amp;utm_campaign=route_widget"
@@ -66,12 +74,20 @@
             </div>
         </div>
 
-</body>
 
-<footer class="footer">
-    <div>
-        <h3>Czekamy na Was!</h3>
-        <p class="coords">50.81439059112687, 15.496660354931333</p>
-        <p class="copy">©Copyright 2025</p>
-    </div>
-</footer>
+        <footer class="footer">
+            <div>
+                <h3>Czekamy na Was!</h3>
+                <p class="coords">50.81439059112687, 15.496660354931333</p>
+                <p class="copy">©Copyright 2025</p>
+            </div>
+        </footer>
+        <script>
+            const burger = document.querySelector('.burger');
+            const mobileMenu = document.querySelector('.menu-mobile');
+            burger.addEventListener('click', () => {
+                mobileMenu.classList.toggle('active');
+            }); 
+        </script>
+
+</body>
