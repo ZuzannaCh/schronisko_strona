@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="galeria.css">
 </head>
 
+
 <body>
     <header>
         <div class="nav">
@@ -34,21 +35,21 @@
         <h1> Galeria</h1>
         <section>
             <div class="galeria">
-                <h2> Pokoje</h2>
+                <h2> Schronisko</h2>
                 <div class="zdjecia">
-                    <img src="img/los.jpg">
-                    <img src="img/los.jpg">
-                    <img src="img/los.jpg">
+                    <img src="img/schronisko_zewn.jpg">
+                    <img src="img/nocleg.png">
+                    <img src="img/stolowka.png">
                 </div>
             </div>
         </section>
         <section>
             <div class="galeria">
-                <h2> Schronisko</h2>
+                <h2> Szałas Sielanka</h2>
                 <div class="zdjecia">
-                    <img src="img/los.jpg">
-                    <img src="img/los.jpg">
-                    <img src="img/los.jpg">
+                    <img src="img/szalas.jpg">
+                    <img src="img/szalas_wnetrze.png">
+                    <img src="img/szalas_grill.png">
                 </div>
             </div>
         </section>
@@ -56,13 +57,34 @@
             <div class="galeria">
                 <h2> Okolica</h2>
                 <div class="zdjecia">
-                    <img src="img/los.jpg">
-                    <img src="img/los.jpg">
-                    <img src="img/los.jpg">
+                    <img src="img/szlak.png">
+                    <img src="img/wodospad_zdj.png">
+                    <img src="img/szlak2.jpg">
                 </div>
             </div>
         </section>
     </section>
+
+    <div id="lightbox">
+        <img id="lightbox-img">
+    </div>
+
+    <script>
+        const images = document.querySelectorAll(".zdjecia img");
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = document.getElementById("lightbox-img");
+
+        images.forEach(img => {
+            img.addEventListener("click", () => {
+                lightbox.style.display = "flex";
+                lightboxImg.src = img.src;
+            });
+        });
+
+        lightbox.addEventListener("click", () => {
+            lightbox.style.display = "none";
+        });
+    </script>
 
 </body>
 
