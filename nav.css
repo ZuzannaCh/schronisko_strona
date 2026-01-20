@@ -99,7 +99,6 @@ header {
 
 @media (max-width: 600px) {
 
-    /* Header: mniej paddingu, sticky zostaje */
     .nav {
         padding: 14px 16px;
     }
@@ -112,7 +111,6 @@ header {
         height: 28px;
     }
 
-    /* Ukryj desktopowe menu, pokaż hamburger */
     .menu {
         display: none;
     }
@@ -121,7 +119,6 @@ header {
         display: block;
     }
 
-    /* Footer: linia nie może mieć 600px na mobile */
     .footer hr {
         width: 70%;
     }

@@ -51,25 +51,6 @@ body {
 }
 
 
-.menu-pdf {
-    background: #fff;
-    padding: 20px 20px;
-    text-align: center;
-}
-
-.menu-pdf h1 {
-    margin-bottom: 30px;
-}
-
-.menu-pdf iframe {
-    width: 100%;
-    max-width: 900px;
-    height: 600px;
-    border: none;
-
-    border-radius: 2%;
-}
-
 @media (max-width: 600px) {
     .oferta-inner {
         flex-direction: column;
