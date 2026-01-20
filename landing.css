@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,14 +6,14 @@
 
 body {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #000;
   background: #807051;
 }
 
 .welcome {
   height: 420px;
-  background-image: 
+  background-image:
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("img/wodospad.jpg");
   background-size: cover;
