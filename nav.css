@@ -60,12 +60,14 @@ header {
 }
 
 .menu a.active {
-  border-bottom: 3px solid #89C338;
-  border-top: 3px solid #89C338;
+  color: #5B4329;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(137, 195, 56, 0.3);
 }
 
 .menu li a:hover {
     background-color: #89C338;
+    color: #fff;
     transform: translateY(-2px);
     border-radius: 4%;
 }
