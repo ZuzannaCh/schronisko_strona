@@ -135,7 +135,7 @@ body {
   display: inline-block;
 }
 
-/* ROZWIJANIE KART */
+
 .short-text {
   display: block;
 }
@@ -162,7 +162,7 @@ body {
   transform: scale(1);
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 600px) {
   .welcome {
     height: 220px;
