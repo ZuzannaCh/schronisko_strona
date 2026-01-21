@@ -155,6 +155,7 @@ body {
 .card.expanded .full-text {
   display: block;
   margin-top: 10px;
+  text-align: justify;
 }
 
 .card.expanded:hover {
