@@ -23,7 +23,7 @@ header {
     font-size: 28px;
     line-height: 1;
     cursor: pointer;
-    color: #5B4D29;
+    color: #000;
 }
 
 
@@ -57,6 +57,11 @@ header {
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
+}
+
+.menu a.active {
+  border-bottom: 3px solid #89C338;
+  border-top: 3px solid #89C338;
 }
 
 .menu li a:hover {
