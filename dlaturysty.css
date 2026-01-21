@@ -26,15 +26,18 @@ body {
     align-items: center;
     gap: 80px;
     padding-bottom: 20px;
-    border-bottom: 2px solid #807051;
+    /*border-bottom: 2px solid #807051;*/
 }
 
 .info-reverse .info-inner {
     flex-direction: row-reverse;
+    
 }
 
 .info-text {
     flex: 1;
+    text-align: justify;
+    
 }
 
 .info-photo {
