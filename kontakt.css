@@ -130,7 +130,7 @@ body {
   background: #6b5d43;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .info-container {
     grid-template-columns: 1fr;
   }
